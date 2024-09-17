@@ -1,0 +1,4 @@
+ebooklib
+beautifulsoup4
+openai
+lxml
