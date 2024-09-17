@@ -24,31 +24,32 @@ This python script uses OpenAI API Text To Speech (TTS) Voice to convert EPUB bo
 ## Installation
 
 - Clone the repository:
-   ```bash
-   git clone https://github.com/fairy-root/epub-to-audiobook.git
-   cd epub-to-audiobook
-   ```
+    ```bash
+    git clone https://github.com/fairy-root/epub-to-audiobook.git
+    cd epub-to-audiobook
+    ```
 
 - Create a virtual environment and activate it:
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install the required packages:
-```
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    Install the required packages:
+    ```
+
 - Install the requirements
 
-```bash
-pip install -r requirements.txt
-Usage
-Ensure you have your OpenAI API key set up. You can set it in the environment variable OPENAI_API_KEY.
-```
+    ```bash
+    pip install -r requirements.txt
+    Usage
+    Ensure you have your OpenAI API key set up. You can set it in the environment variable OPENAI_API_KEY.
+    ```
 
 - Run the script:
 
-```bash
-python main.py
-```
+    ```bash
+    python main.py
+    ```
 
 - Follow the prompts to select the EPUB file and other options.
 
