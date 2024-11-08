@@ -34,16 +34,15 @@ This python script uses OpenAI API Text To Speech (TTS) Voice to convert EPUB bo
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    Install the required packages:
     ```
 
 - Install the requirements
 
     ```bash
     pip install -r requirements.txt
-    Usage
-    Ensure you have your OpenAI API key set up. You can set it in the environment variable OPENAI_API_KEY.
     ```
+    - Usage
+        Ensure you have your OpenAI API key set up. You can set it in the environment variable OPENAI_API_KEY.
 
 - Run the script:
 
